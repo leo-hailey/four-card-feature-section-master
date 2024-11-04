@@ -1,0 +1,48 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --very-dark-blue: hsl(234, 12%, 34%);
+    --grayish-blue: hsl(229, 6%, 66%);
+    --very-light-gray: hsl(0, 0%, 98%);
+    --red: hsl(0, 78%, 62%);
+    --cyan: hsl(180, 62%, 55%);
+    --orange: hsl(34, 97%, 64%);
+    --blue: hsl(212, 86%, 64%);
+}
+
+body {
+    font-size: 15px;
+    font-family: 'Poppins';
+    text-align: center;
+    margin: 4rem;
+}
+
+h1 , h2 , h3 {
+    color: var(--very-dark-blue);
+}
+
+p {
+    color: var(--grayish-blue);
+}
+
+.skinny { 
+    font-weight: 200;
+}
+
+.intro {
+    max-width: 32rem;
+}
+
+.card-container{
+    display: flex;
+}
+
+.card {
+    border-radius: 5px;
+    border: 1px solid transparent;
+    box-shadow: 10px 10px 15px var(--very-light-gray);
+}
